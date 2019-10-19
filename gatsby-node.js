@@ -19,10 +19,10 @@ exports.onCreateWebpackConfig = ({ actions }) => {
   })
 }
 const path = require("path")
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
   const FrameworkView = path.resolve(`src/views/FrameworkView.js`)
-  graphql(`
+  await graphql(`
     {
       allMarkdownRemark(
         sort: { order: DESC, fields: [] }

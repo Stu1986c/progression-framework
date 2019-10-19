@@ -1,7 +1,7 @@
 ---
-path: "/engineering/backend"
-title: "🛠️ Backend Engineering Framework"
-sidebarTitle: "🛠️ Backend"
+path: "/engineering/fullstack"
+title: "⚔️ Full Stack Engineering Framework"
+sidebarTitle: "⚔️ Full Stack"
 sidebarGroup: "engineering"
 yaml: true
 levels: 6
@@ -142,6 +142,10 @@ topics:
           - "Proactively improves modules, services, systems and codebases they encounter, 'this doesn't make sense, I'm going to do something about it'"
           - "Contributes to scaling engineering hiring (e.g. leads calls, does onsite interviews)"
           - "Builds simple tools or iterates existing tools for the benefit of all engineers"
+          - "Helps Product Managers and Designers to understand and consider non-functional requirements in the product development process"
+          - "Promotes accessibility good practice and helps other engineers to deepen their accessibility knowledge, including demonstrating how to use screen readers"
+          - "Promotes security good practice and helps other engineers to deepen their security knowledge"
+          - "Promotes performance good practice and helps other engineers to deepen their performance knowledge"
       - level: 4
         criteria:
           - "Positively influences engineers in the wider org"
@@ -151,6 +155,8 @@ topics:
           - "Drives changes to engineering practices with well-reasoned arguments and a 'strong opinion, weakly held' mentality"
           - "Shapes the direction of systems designs with less experienced engineers"
           - "Breaks down delivery and knowledge silos in their squad"
+          - "Keeps up to date with industry developments and feeds specific technical and non-functional recommendations back into the business"
+          - "Proactively identifies opportunities to improve company culture around coding standards and non-functional requirements"
       - level: 5
         criteria:
           - "Represents Monzo at conferences/events"
@@ -166,96 +172,112 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Learns to write correct Go code, following guidance and training materials"
+          - "Learns to write semantic HTML and CSS following guidance and training materials"
+          - "Learns to write correct JavaScript following guidance and training materials"
+          - "Uses Chrome, React, and Redux DevTools effectively to increase productivity during development and debugging"
+          - "Implements simple components"
           - "Fixes simple bugs"
+          - "Asks questions and actions feedback from mentor"
+        exampleCriteria:
+          - criteria: "Uses git to manage the development workflow effectively"
+            examples:
+              - "Checkout, Push, Pull, Branch, Diff, Merge, Stash, Rebase, etc."
       - level: 2
         criteria:
-          - "Designs simple database tables"
-          - "Implements asynchronous messaging between services"
-          - "Deploys services to staging and production"
-          - "Handles simple error cases in RPC handlers and message consumers"
-          - "Fixes bugs involving a number of services and can investigate production issues"
+          - "Writes semantic HTML and CSS following accepted best practices"
           - "Uses appropriate algorithms and data structures to solve problems"
-          - "Writes automated unit and acceptance tests"
+          - "Writes Flow types to statically type-check the code at compile-time"
+          - "Writes automated unit and end-to-end tests following accepted best practices"
+          - "Deploys web services into staging and production following our deployment guidelines"
+          - "Assists on the design of new features and components"
+          - "Solves well-defined tasks within our current developer abstractions"
+          - "Integrates with backend APIs and handles successful and failed responses properly"
+          - "Works with users to improve new and existing simple features iteratively"
+          - "Uses a keyboard and screen-reader to manually test their application for accessibility issues"
+          - "Runs automated auditing tools such as Lighthouse before submitting a PR for review"
+          - "Demonstrates awareness of a range of security considerations, and mitigates against them"
+          - "Has multiple examples of where performance was considered as part of a solution"
         exampleCriteria:
-          - criteria: "Implements simple RPC handlers"
+          - criteria: "Applies fundamental UX and accessibility principles to common problems such as form design"
             examples:
-              - "Basic CRUD handlers"
-              - "Internal/external API proxies"
-          - criteria: "Writes correct Go code following accepted best practices"
+              - "Referencing (and improving) existing Design Systems where possible"
+          - criteria: "Writes correct JavaScript code following accepted best practices"
             examples:
-              - "Follows our Coding Conventions & Best Practices, uses language-level primitives correctly"
+              - "Follows our JavaScript Coding Conventions & Best Practices; uses language-level primitives correctly"
+          - criteria: "Implements simple components following accepted best practices"
+            examples:
+              - "Follows React Development Conventions & Best Practices; uses component state and lifecycle methods correctly"
+          - criteria: "Uses shared libraries to reuse existing functionality"
+            examples:
+              - "lib.money"
+              - "lib.api"
+              - "lib.identity-verification, etc."
       - level: 3
         criteria:
-          - "Uses appropriate design patterns"
-          - "Designs new schemas comprising multiple tables"
-          - "Implements complex asynchronous messaging flows"
-          - "Co-ordinates complex deployments and database migrations"
-          - "Implements distributed systems consisting of multiple interacting services"
-          - "Produces technical designs that include a consideration of scalability"
-          - "Handles complex error cases in RPC handlers and message consumers"
+          - "Uses appropriate design patterns to solve problems"
+          - "Identifies obvious deficiencies in the development processes and supports activities to improve them"
+          - "Assists more experienced engineers on the design of larger features"
+          - "Modifies and improves code outside of the developer abstractions and reasons about the improvements effectively"
+          - "Fixes bugs in asynchronous code"
           - "Debugs production issues"
-          - "Considers metrics when building a new system"
+          - "Explains developer abstractions and how to contribute to them to other engineers"
+          - "Collaborates with designers and user researchers to create prototypes and to evaluate them"
+          - "Differentiates between user needs and desires and prioritises accordingly"
         exampleCriteria:
-          - criteria: "Writes idiomatic Go code"
+          - criteria: "Implements non-trivial components"
             examples:
-              - "Follows the guidelines in Effective Go (https://golang.org/doc/effective_go.html), avoids using patterns that are idiomatic in other languages"
-          - criteria: "Mitigates race conditions and partial failure states in distributed systems"
+              - "Uses modern CSS features like flex-box, grid, media-queries, selectors, etc"
+              - "Uses advanced component patterns higher-order components, render props, controlled components, compound components"
+          - criteria: "Writes effective asynchronous code"
             examples:
-              - "Uses locking where appropriate, writes code that is “self-healing” when dealing with distributed failure (e.g. data needs to be written in two or more services)"
-          - criteria: "Implements complex RPC handlers"
+              - "Demonstrates solid understanding of the JavaScript runtime; reasons effectively about the runtime behaviour of asynchronous code; uses async/await, generators and Redux-Saga’s to implement asynchronous code"
+          - criteria: "Writes effective JavaScript by applying fundamental functional and reactive principles and techniques where appropriate and guides others in so doing"
             examples:
-              - "Implements complex business logic, orchestrates multi-stage processes, deals with idempotency or distributed data sources"
-          - criteria: "Proactively considers security implications of their work"    
+              - "Uses uses event streams, immutable data structures, pure functions, functional composition, memoization, etc."
+          - criteria: "Considers metrics when developing, and uses appropriate services to check quality levels"
             examples:
-              - "Appropriately ties down internal access to resources they're working with (e.g. RPC blacklisting, BigQuery permissions)"
-              - "Evaluates security risks when contributing to proposals"
-              - "Highlights potential security issues when raising and reviewing pull requests - e.g. adding rate limiting in an API, or leaving a code comment to explain why we choose not to"
-              - "\"There's a risk here of X, Y but given Z, I think this is OK\""
-              - "Loops in Security when their squad is unsure about something by posting in #security-requests"
+              - "A range, from services such as Lighthouse, WebPageTest, WAVE etc" 
       - level: 4
         criteria:
           - "Writes code that serves as a definitive example for new engineers"
-          - "Leads the refactoring (de-cruftification) of complex systems"
-          - "Debugs complex production issues at speed"
-          - "Identifies and fixes security vulnerabilities"
-          - "Identifies and fixes performance bottlenecks in individual services"
-          - "Explains all aspects of the platform to new engineers"
-          - "Includes actionable dashboarding as part of a new system"
-        exampleCriteria:
-          - criteria: "Implements services or libraries that require a deep level of domain knowledge"
-            examples:
-              - "Mastercard message parsing"
-              - "Credit decisioning"
-              - "CASS scheduling"
-              - "Google Pay"
-          - criteria: "Makes contributions to library code or core services"
-            examples:
-              - "Bug fixes, small improvements; things that don’t result in a major change in the public API"
-          - criteria: "Builds systems that scale reliably without intervention"
-            examples:
-              - "Services can withstand a year’s worth of growth in load/user base without needing first aid"
+          - "Makes contributions to library code or other core parts of the applications"
+          - "Makes contributions to our development tools and build processes"
+          - "Writes complex asynchronous and concurrent code"
+          - "Identifies optimisation opportunities in the development process and contributes to the implementation of proposed solutions"
+          - "Builds maintainable and flexible components and applications"
+          - "Leads the refactoring of complex parts of the system"
+          - "Debugs and fixes complex issues at speed"
+          - "Identifies and fixes security weaknesses"
+          - "Identifies and fixes performance bottlenecks in applications"
+          - "Explains all aspects of the web platform to new engineers"
+          - "Implements services or libraries that require a deep level of domain knowledge"
+          - "Puts users first and can manage competing priorities effectively"
       - level: 5
         criteria:
-          - "Builds systems that serve as definitive examples for new engineers"
-          - "Makes major contributions to library code or core services"
+          - "Makes major contributions to library code or core parts of the application"
           - "Contributes to external technologies or libraries that we depend on"
+          - "Anticipates platform and project needs, technical debt and common issues intuitively"
           - "Develops clear technical solutions from ambiguous requirements"
+          - "Produces technical designs for large complex projects"
           - "Uncovers and fixes tricky bugs that have previously evaded detection"
-          - "Implements security improvements that impact multiple services"
-          - "Implements performance improvements that impact multiple services"
           - "Demonstrates a deep level of knowledge in a specific area"
           - "Serves as a technical authority on a technology or an area of the codebase"
-          - "Creates dashboards that broadly impact all engineers"
-        exampleCriteria:
-          - criteria: "Produces clear technical designs for large complex projects"
-            examples:
-              - "Outbound and Inbound MasterCard clearing proposals"
+          - "Reviews technical designs and pull requests for large complex projects"
+          - "Encourages and supports other engineers to achieve outstanding results"
+          - "Creates major contributions to our documentation, and creates documents that provide guidelines and best practices to other engineers"
+          - "Works with technical and non-technical stakeholders to identify high-level requirements and turns them into discrete technical concerns"
       - level: 6
         criteria:
           - "Makes major contributions to technologies and libraries that we depend on"
-          - "Makes improvements to the stability, performance or security of the entire platform"
+          - "Uses a risk-based approach and manages technical debt systematically to focus the team’s design and development efforts on the most important problems"
+          - "Works with business and technology stakeholder to translate difficult business problems into technical designs, thereby ensuring that the organisation derives maximum value from services"
+          - "Identifies architecturally significant functional and non-functional requirements, identifies conflicts among them, and defines possible trade-offs scenarios"
+          - "Articulates high-level technical goals, concerns, trade-offs, and decisions to the rest of the company effectively"
+          - "Facilitates technical decision making in complex and ambiguous situations"
+          - "Promotes architectural thinking and good engineering practices at scale"
+          - "Makes improvements that affect important non-functional requirements that have an effect on the entire web-platform"
           - "Serves as a technical authority in the wider engineering community"
+          - "Identifies and explores opportunities for service and business improvement"
 ---
 ### About our engineering progression frameworks
 The engineering progression framework is a tool that helps engineers and managers:

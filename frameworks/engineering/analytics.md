@@ -1,7 +1,7 @@
 ---
-path: "/engineering/web"
-title: "🌐 Web Engineering Framework"
-sidebarTitle: "🌐 Web"
+path: "/engineering/analytics"
+title: "📊 Analytics Engineering Framework"
+sidebarTitle: "📊 Analytics"
 sidebarGroup: "engineering"
 yaml: true
 levels: 6
@@ -138,25 +138,17 @@ topics:
           - "Proactively raises issues they spot in retrospectives"
       - level: 3
         criteria:
-          - "Provides valuable input to proposals from their team"
+          - "Actively comments on and engages with proposals"
           - "Proactively improves modules, services, systems and codebases they encounter, 'this doesn't make sense, I'm going to do something about it'"
-          - "Contributes to scaling engineering hiring (e.g. leads calls, does onsite interviews)"
-          - "Builds simple tools or iterates existing tools for the benefit of all engineers"
-          - "Helps Product Managers and Designers to understand and consider non-functional requirements in the product development process"
-          - "Promotes accessibility good practice and helps other engineers to deepen their accessibility knowledge, including demonstrating how to use screen readers"
-          - "Promotes security good practice and helps other engineers to deepen their security knowledge"
-          - "Promotes performance good practice and helps other engineers to deepen their performance knowledge"
       - level: 4
         criteria:
-          - "Positively influences engineers in the wider org"
+          - "Contributes to data team blog"
           - "Maintains documentation on things they know the most, makes it easy for future engineers to interact with systems/code"
           - "Clears blockers for junior team members, provides context/guidance, or knows how to escalate"
-          - "Asks why. Does not take truths for granted unless they understand exactly where they are coming from (especially with regards to regulation, compliance, etc)"
-          - "Drives changes to engineering practices with well-reasoned arguments and a 'strong opinion, weakly held' mentality"
-          - "Shapes the direction of systems designs with less experienced engineers"
-          - "Breaks down delivery and knowledge silos in their squad"
-          - "Keeps up to date with industry developments and feeds specific technical and non-functional recommendations back into the business"
-          - "Proactively identifies opportunities to improve company culture around coding standards and non-functional requirements"
+        exampleCriteria:
+          - criteria: "Contributes to data hiring"
+            examples:
+              - "leads calls, does onsite interviews"
       - level: 5
         criteria:
           - "Represents Monzo at conferences/events"
@@ -165,119 +157,166 @@ topics:
           - "Acts as the 'sole proprietor', in the CEO mindset, their ego/agenda is not a factor in their thinking or decision making"
       - level: 6
         criteria:
-          - "Attracts other very senior hires"
-          - "Engineers around them get better and have a bigger impact, faster"
+          - "Attracts other very senior hires" 
+          - "Engineers around them get better and have a bigger impact, faster" 
   - name: "mastery"
     title: "🛠️ Mastery"
     content:
       - level: 1
         criteria:
-          - "Learns to write semantic HTML and CSS following guidance and training materials"
-          - "Learns to write correct JavaScript following guidance and training materials"
-          - "Uses Chrome, React, and Redux DevTools effectively to increase productivity during development and debugging"
-          - "Implements simple components"
-          - "Fixes simple bugs"
-          - "Asks questions and actions feedback from mentor"
+          - "Comfortable with using git and contributing to our code base"
+          - "Can extend existing data models and design simple new ones"
+          - "Creates new Looker views and dashboards; extracts basic insights quickly from existing Looker explores"
+          - "Strong SQL skills"
+          - "Implements basic prediction models quickly"
+          - "Basic Python or R skills"
+          - "Delivers assigned tasks that meet expected criteria"
+          - "Tries to unblock themselves first before seeking help"
+          - "Works for the team, focuses on tasks that contribute to team goals"
         exampleCriteria:
-          - criteria: "Uses git to manage the development workflow effectively"
+          - criteria: "Demonstrates a good understanding of the business team they are partnering with"
             examples:
-              - "Checkout, Push, Pull, Branch, Diff, Merge, Stash, Rebase, etc."
+              - "Knows how the team is organised, who is who, what are the goals, current priorities, biggest challenges etc."
+          - criteria: "Translates business questions into analysable hypothesis and answers those"
+            examples:
+              - "Question from business 'Why do salaried users cost us twice as much on customer support?' → cost are allocated by number of intercom queries → salaried users must be generating more queries → Is of queries proportional to engagement? → Are all salaried users are over-proportionally struggling with particular problems (e.g. missing bank statements) → etc."
+          - criteria: "Picks the right visualisation types for the data at hand"
+            examples:
+              - "distributions, time series, scatter plots etc"
+          - criteria: "Basic stats and math knowledge"
+            examples:
+              - "Able to find a formula to calculate confidence intervals for different measurement scenarios, knows how to interpret those etc."
       - level: 2
         criteria:
-          - "Writes semantic HTML and CSS following accepted best practices"
-          - "Uses appropriate algorithms and data structures to solve problems"
-          - "Writes Flow types to statically type-check the code at compile-time"
-          - "Writes automated unit and end-to-end tests following accepted best practices"
-          - "Deploys web services into staging and production following our deployment guidelines"
-          - "Assists on the design of new features and components"
-          - "Solves well-defined tasks within our current developer abstractions"
-          - "Integrates with backend APIs and handles successful and failed responses properly"
-          - "Works with users to improve new and existing simple features iteratively"
-          - "Uses a keyboard and screen-reader to manually test their application for accessibility issues"
-          - "Runs automated auditing tools such as Lighthouse before submitting a PR for review"
-          - "Demonstrates awareness of a range of security considerations, and mitigates against them"
-          - "Has multiple examples of where performance was considered as part of a solution"
+          - "Reasons well about about underlying principles of data modeling"
         exampleCriteria:
-          - criteria: "Applies fundamental UX and accessibility principles to common problems such as form design"
+          - criteria: "Attention to details"
             examples:
-              - "Referencing (and improving) existing Design Systems where possible"
-          - criteria: "Writes correct JavaScript code following accepted best practices"
+              - "whenever they deliver a piece of work or send a weekly KPIs report they don’t just blindly copy & paste; they sanity check whether things make sense and try to spot mistakes"
+          - criteria: "Manages their own time effectively, prioritises their workload well, on time for meetings, aware when blocking others and unblocks"
             examples:
-              - "Follows our JavaScript Coding Conventions & Best Practices; uses language-level primitives correctly"
-          - criteria: "Implements simple components following accepted best practices"
+              - "able to focus on assigned tasks despite distractions from people, emails, slacks etc. Able to create a 'focus environment' for themselves"
+              - "exhibits self-awareness around personal productivity (able to spot and debug personal productivity issues or to seek help/advice)"
+          - criteria: "Brings things to completion"
             examples:
-              - "Follows React Development Conventions & Best Practices; uses component state and lifecycle methods correctly"
-          - criteria: "Uses shared libraries to reuse existing functionality"
-            examples:
-              - "lib.money"
-              - "lib.api"
-              - "lib.identity-verification, etc."
+              - "analysts/data scientists often exhibit a behaviour where they run many analyses in parallel for a prolonged time without closing tasks off. Closing a task off could mean writing down key takeaway and sharing the findings with the relevant audience."
+              - "brings a model into a production experiment instead of continuing to tweak offline results"
       - level: 3
         criteria:
-          - "Uses appropriate design patterns to solve problems"
-          - "Identifies obvious deficiencies in the development processes and supports activities to improve them"
-          - "Assists more experienced engineers on the design of larger features"
-          - "Modifies and improves code outside of the developer abstractions and reasons about the improvements effectively"
-          - "Fixes bugs in asynchronous code"
-          - "Debugs production issues"
-          - "Explains developer abstractions and how to contribute to them to other engineers"
-          - "Collaborates with designers and user researchers to create prototypes and to evaluate them"
-          - "Differentiates between user needs and desires and prioritises accordingly"
+          - "Consistently applies data modeling best practices and suggests ways to improve current practices in non trivial cases"
+          - "Able determine what really matters for a particular analysis and understands what a 80/20 solution would look like and can prioritise accordingly"
         exampleCriteria:
-          - criteria: "Implements non-trivial components"
+          - criteria: "Able to pick the best tool and method to effectively help the business to answer a question/make a decision"
             examples:
-              - "Uses modern CSS features like flex-box, grid, media-queries, selectors, etc"
-              - "Uses advanced component patterns higher-order components, render props, controlled components, compound components"
-          - criteria: "Writes effective asynchronous code"
+              - "Looker, SQL, python or spreadsheets + a basic chart, blackbox ML model or a structured scenario model etc) → Understands the problem at hand and proposes alternative suitable solutions rather trying to fit the problem to the favourite tool."
+          - criteria: "Concise, clear and effective communication"
             examples:
-              - "Demonstrates solid understanding of the JavaScript runtime; reasons effectively about the runtime behaviour of asynchronous code; uses async/await, generators and Redux-Saga’s to implement asynchronous code"
-          - criteria: "Writes effective JavaScript by applying fundamental functional and reactive principles and techniques where appropriate and guides others in so doing"
-            examples:
-              - "Uses uses event streams, immutable data structures, pure functions, functional composition, memoization, etc."
-          - criteria: "Considers metrics when developing, and uses appropriate services to check quality levels"
-            examples:
-              - "A range, from services such as Lighthouse, WebPageTest, WAVE etc" 
+              - "tailored to audience, clear and concise message (i.e no unnecessary details)"
+              - "can be through emails, slack or presentations"
       - level: 4
         criteria:
-          - "Writes code that serves as a definitive example for new engineers"
-          - "Makes contributions to library code or other core parts of the applications"
-          - "Makes contributions to our development tools and build processes"
-          - "Writes complex asynchronous and concurrent code"
-          - "Identifies optimisation opportunities in the development process and contributes to the implementation of proposed solutions"
-          - "Builds maintainable and flexible components and applications"
-          - "Leads the refactoring of complex parts of the system"
-          - "Debugs and fixes complex issues at speed"
-          - "Identifies and fixes security weaknesses"
-          - "Identifies and fixes performance bottlenecks in applications"
-          - "Explains all aspects of the web platform to new engineers"
-          - "Implements services or libraries that require a deep level of domain knowledge"
-          - "Puts users first and can manage competing priorities effectively"
+          - "Actively drives improvements of how the team works"
+          - "Values teams success over individual success and company’s success over teams success"
+          - "Onboards / mentors new team members"
+          - "Gets buy-in on technical decision-making and proposed designs"
+          - "Sought out for code reviews"
+        exampleCriteria:
+          - criteria: "Distinguishes clearly between urgent and important tasks and is able to focus on getting the important tasks done."
+            examples:
+              - "effectively manages expectations of other people"
+              - "communicates priorities to their team and other relevant stakeholders"
+          - criteria: "Holds themselves and others accountable"
+            examples:
+              - "Accountability is about delivering on a commitment. It’s responsibility to an outcome, not just a set of tasks."
+          - criteria: "Communicates complex ideas effectively"
+            examples:
+              - "has the ability to chose the appropriate level of abstraction and make complexity easy to understand tips (see https://www.fastcompany.com/3045853/how-to-talk-about-complex-topics-without-dumbing-them-down)"
       - level: 5
         criteria:
-          - "Makes major contributions to library code or core parts of the application"
-          - "Contributes to external technologies or libraries that we depend on"
-          - "Anticipates platform and project needs, technical debt and common issues intuitively"
-          - "Develops clear technical solutions from ambiguous requirements"
-          - "Produces technical designs for large complex projects"
-          - "Uncovers and fixes tricky bugs that have previously evaded detection"
-          - "Demonstrates a deep level of knowledge in a specific area"
-          - "Serves as a technical authority on a technology or an area of the codebase"
-          - "Reviews technical designs and pull requests for large complex projects"
-          - "Encourages and supports other engineers to achieve outstanding results"
-          - "Creates major contributions to our documentation, and creates documents that provide guidelines and best practices to other engineers"
-          - "Works with technical and non-technical stakeholders to identify high-level requirements and turns them into discrete technical concerns"
+          - "Solves larger ambiguous/not well defined problems"
+          - "Contributes to maintaining Monzo’s culture in the wider company"
+          - "Proactively thinks about how we can get better at our purpose: quicker and better decisions based on data" 
+        exampleCriteria:
+          - criteria: "Builds out a strong internal network"
+            examples:
+              - "i.e. well connected through-out the company, also to teams with no direct common projects at the moment"
+          - criteria: "Has good organisational awareness"
+            examples:
+              - "understands the process of how things are getting done in the company e.g. how and when goals are set, how decisions are being made, how priorities are defined etc."
+          - criteria: "Sees common patterns in similar tasks and thinks about the solution from the platform/systems perspective."
+            examples:
+              - "solutions that not only solve your own problem but also similar problems of other people in the company)"
       - level: 6
         criteria:
-          - "Makes major contributions to technologies and libraries that we depend on"
-          - "Uses a risk-based approach and manages technical debt systematically to focus the team’s design and development efforts on the most important problems"
-          - "Works with business and technology stakeholder to translate difficult business problems into technical designs, thereby ensuring that the organisation derives maximum value from services"
-          - "Identifies architecturally significant functional and non-functional requirements, identifies conflicts among them, and defines possible trade-offs scenarios"
-          - "Articulates high-level technical goals, concerns, trade-offs, and decisions to the rest of the company effectively"
-          - "Facilitates technical decision making in complex and ambiguous situations"
-          - "Promotes architectural thinking and good engineering practices at scale"
-          - "Makes improvements that affect important non-functional requirements that have an effect on the entire web-platform"
-          - "Serves as a technical authority in the wider engineering community"
-          - "Identifies and explores opportunities for service and business improvement"
+          - "Delivers projects that require cross functional collaboration"
+          - "Delegates to make better use of their time"
+  - name: "mastery-science"
+    title: "🧪 Mastery - Data Science"
+    content:
+      - level: 2
+        criteria:
+          - "Familiar with ML batch serving techniques"
+        exampleCriteria:
+          - criteria: "Basic knowledge of standard ML approaches"
+            examples:
+              - "linear regression, neural nets, clustering, random forests etc."
+      - level: 3
+        criteria:
+          - "Able to pick the right ML method for the problem at hand; demonstrates good intuition of how those approaches work and what strength/weaknesses they have"
+          - "Distinguishes well between impactful ML problems vs just 'predicting something'"
+      - level: 4
+        criteria:
+          - "Thrown at fires and resolves / contributes heavily to resolving them"
+          - "Replicates cutting edge approaches from research papers where required"
+          - "Thinks about the future situations code will be used in, planning and acting accordingly"
+          - "Makes pragmatic choices about taking on tech debt"
+        exampleCriteria:
+          - criteria: "Debugs complex Deep Neural Net code/issues"
+            examples:
+              - "knows what to look at when the loss is not decreasing etc."
+          - criteria: "Validates ideas aggressively & iteratively"
+            examples:
+              - "tackles the biggest unknowns first; validates ideas with 10% effort"
+          - criteria: "Measures, understands and is transparent about the impact of their ML work."
+            examples:
+              - "we should serve as role models for the rest of the company in this regard in particular"
+      - level: 5
+        criteria:
+          - "Technical authority within their immediate peer group (team/platform), the natural escalation point"
+        exampleCriteria:
+          - criteria: "Familiar with ML streaming, stateful and stateless serving techniques"
+            examples:
+              - "can spec out and plan an implementation. Familiar with technological components that might be required"
+      - level: 6
+        criteria:
+          - "Serves as a technical authority in the wider data science community"
+          - "Deep domain knowledge, can go lower than almost anyone else"
+          - "Makes targeted improvements in stability, performance and scalability across our platform"
+          - "Measurable impact on company level goals"
+  - name: "mastery-analytics"
+    title: "📈 Mastery - Data Analytics"
+    content:
+      - level: 3
+        exampleCriteria:
+          - criteria: "Asks why. Does not take truths for granted unless they understand exactly where they are coming from"
+            examples:
+              - "especially with regards to regulation, compliance, etc."
+      - level: 4
+        exampleCriteria:
+          - criteria: "Valued and trusted business partner for the teams they support"
+            examples:
+              - "Can be mostly proxied by the type of questions their business partners are asking. 'Can you help me to solve this (hard) problem?' vs 'Can you please pull this number?'"
+          - criteria: "Proactively identifies relevant/impactful areas for analyses which would deepen the understanding of the business or enable decisions"
+            examples:
+              - "during the planning process you contribute proactively to help your team to define the right priorities with relevant insights"
+      - level: 5
+        exampleCriteria:
+          - criteria: "Deep domain knowledge in specific areas, can go lower than almost anyone else"
+            examples:
+              - "deep credit risk knowledge, user behaviour analytics etc"
+      - level: 6
+        criteria:
+          - "Comfortably supports and interacts with C-level executives"
 ---
 ### About our engineering progression frameworks
 The engineering progression framework is a tool that helps engineers and managers:

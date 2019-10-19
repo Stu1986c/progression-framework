@@ -2,6 +2,7 @@
 import * as React from 'react'
 import { Location } from '@reach/router'
 import { Helmet } from 'react-helmet'
+import logo from '../images/ENSEK.png'
 import favicon from '../images/favicon.png'
 import menuIcon from '../images/menu_icon.svg'
 import closeIcon from '../images/close_icon.svg'
@@ -56,7 +57,7 @@ const SidebarRenderer = ({
           <SidebarReset>
             <SidebarScroll>
               <ScrollbarHeader>
-                <SidebarIcon src={favicon} alt="Monzo" />
+                <SidebarIcon src={logo} alt="ENSEK" />
                 <FlexboxPush>
                   <CloseIcon onClick={sidebarClickHandler} src={closeIcon} />
                 </FlexboxPush>
@@ -103,7 +104,7 @@ class Layout extends React.Component<Props, State> {
     return (
       <Contain>
         <Helmet>
-          <title>Progression at Monzo</title>
+          <title>Career Progression at ENSEK</title>
         </Helmet>
         <SidebarRenderer
           data={data}

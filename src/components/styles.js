@@ -442,9 +442,7 @@ export const SidebarScroll = styled.div`
 export const SidebarIcon = styled.img`
   width: auto;
   height: auto;
-  max-height: 54.6px;
-  max-width: 63px;
-  min-width: 39px;
+  max-width: 100px;
 
   @media all and (max-width: ${BREAKPOINT_MOBILE}px) {
     max-height: 39px;

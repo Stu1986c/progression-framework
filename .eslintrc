@@ -6,6 +6,11 @@
     "eslint:recommended",
     "plugin:react/recommended"
   ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "plugins": ["prettier", "flowtype", "flowtype-errors"],
   "rules": {
     "strict": 0,

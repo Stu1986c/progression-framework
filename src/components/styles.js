@@ -10,6 +10,7 @@ export const BREAKPOINT_MOBILE = 736
 export const BREAKPOINT_TABLET = 1024
 export const BREAKPOINT_DESKTOP = 1300
 export const MIDNIGHT_SKY = '#14233c'
+export const ENSEK_ORANGE = '#F56E3E'
 export const LAGOON_BLUE = '#145d8e'
 export const GREY_BLUE = '#707b8c'
 
@@ -89,7 +90,7 @@ export const DefaultStyledLink = styled(Link)`
     'Arial', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
-  color: ${MIDNIGHT_SKY} !important;
+  color: ${ENSEK_ORANGE} !important;
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -116,7 +117,7 @@ export const StyledLink = styled(PartialNavLink)`
     'Arial', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
-  color: ${MIDNIGHT_SKY} !important;
+  color: ${ENSEK_ORANGE} !important;
   width: 100%;
   height: 100%;
   opacity: 1;
@@ -286,7 +287,8 @@ export const LevelsText = styled.h2`
   ${props =>
     props.active &&
     css`
-      opacity: 1;
+      opacity: 1;      
+      color: ${ENSEK_ORANGE} !important;
     `}
 `
 
@@ -340,8 +342,8 @@ export const Sidebar = styled.div`
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  background-color: #f7f7f7;
-  color: black;
+  background-color: #172C4E;
+  color: white;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;

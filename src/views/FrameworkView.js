@@ -63,6 +63,7 @@ export const pageQuery = graphql`
         sidebarTitle
         sidebarGroup
         yaml
+        levelPrefix
         levels
         homepage
         topics @include(if: $isYaml) {
@@ -87,6 +88,7 @@ export const pageQuery = graphql`
         sidebarTitle
         sidebarGroup
         yaml
+        levelPrefix
         levels
         homepage
         topics @include(if: $isYaml) {

@@ -37,6 +37,12 @@ const Spread = styled.div`
 const renderLevels = ({ onClickHandler, pageData, activeLevel }: Props) => {
   const toRender = []
 
+  toRender.push(        
+    <LevelsText active>
+      {pageData.levelPrefix}
+    </LevelsText>,
+  );
+
   for (let i = 1; i <= pageData.levels; i++) {
     if (activeLevel != null && i === activeLevel) {
       toRender.push(

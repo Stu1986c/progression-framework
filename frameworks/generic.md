@@ -4,6 +4,7 @@ title: "📄 Generic Framework"
 sidebarTitle: "📄 Generic"
 sidebarGroup:
 yaml: true
+levelPrefix: "G"
 levels: 6
 homepage: false
 topics:

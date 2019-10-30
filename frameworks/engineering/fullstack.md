@@ -5,9 +5,27 @@ sidebarTitle: "⚔️ Full Stack"
 sidebarGroup: "engineering"
 yaml: true
 levelPrefix: "E"
-levels: 6
+levels: 5
 homepage: true
 topics:
+  - name: "title"
+    title: "💡 Associated Job Titles"
+    content:
+      - level: 1
+        criteria:
+          - "Placement Developer"
+      - level: 2
+        criteria:
+          - "Associate Developer"
+      - level: 3
+        criteria:
+          - "Mid-Level Developer"
+      - level: 4
+        criteria:
+          - "Senior Developer"
+      - level: 5
+        criteria:
+          - "Lead Developer"
   - name: "communication"
     title:
     content:
@@ -282,9 +300,9 @@ topics:
 ---
 ### About our engineering progression frameworks
 The engineering progression framework is a tool that helps engineers and managers:
-- make development and career plans
-- talk about what we’re looking for from engineers in a consistent way
-- set a fair level of compensation.
+ - make development and career plans
+ - talk about what we’re looking for from engineers in a consistent way
+ - set a fair level of compensation
 
 The framework is a compass, not a GPS.
 
@@ -292,15 +310,15 @@ It's meant to be helpful. It's not meant to be a rating system for humans, free 
 
 ### How does it work?
 The framework covers all the things we’re looking for from engineers at ENSEK. We’re interested in these five elements:
-- Mastery - Your ENSEK knowledge and technical capability
-- Impact - The size, scope and value of what you deliver
-- Influence - How you change the world around you for the better
-- Comms & Feedback - How you interact with others
-- Leadership - How people around you become better and more impactful
+  - Mastery - Your ENSEK knowledge, subject matter expertise within your team and technical capability
+  - Impact - The size, scope and value of what you deliver
+  - Influence - How you change the world around you for the better
+  - Comms & Feedback - How you interact with others
+  - Leadership - How people around you become better and more impactful
 
-We sort them into six levels, and we try to give specific examples of behaviours we expect for each. Each of those levels has a fairly wide salary range associated with it, and within each level you can progress in sub-levels, labelled A–E. So even if you’re at level 3 for a couple of years, you’ll still be able to see that you’re moving forward. Basically, the more behaviours you show from your level, the more you’ll progress.
+We sort them into six levels, and we try to give specific examples of behaviours we expect for each. Basically, the more behaviours you show from your level, the more you’ll progress.
 
-Your manager will work with you on this. None of it will happen mysteriously behind closed doors. You’ll agree what level of progression you’re going for and what you need to improve on with your manager. It should be clear how you’re doing relative to that at all times.
+Your manager will work with you on this. None of it will happen mysteriously behind closed doors. You’ll agree what level of progression you’re going for and what you need to improve on with your manager. It should be clear how you’re doing relative to that at all times. The objectives supporting your progression will be tracked within Clear Review - collation of evidence towards progress made against each objective will be owned by yourself. Once again, your manager will be able to offer guidance on suitable evidence for each objective.
 
 ### Things to keep in mind
 - There are many different ways to progress and be valuable to ENSEK as you grow, including deep technical knowledge and ability, technical leadership and people management. All are equally valuable paths in ENSEK's engineering team.
@@ -308,7 +326,6 @@ Your manager will work with you on this. None of it will happen mysteriously beh
 - Engineering progression isn’t an exact science and there will always be some ambiguity.
 - This isn’t a checklist – it’s possible to progress up a level without showing all the behaviours in that level.
 - There will be levels on top (eg ‘Inventor of Android’ or ‘Author of Go’), but we won’t add them until we need them.
-- You can find some more information in these links. If that doesn't answer most of your questions, please ask your manager.
 
 ### Give us your feedback!
 This is only the first version of our framework and we really want your feedback.

@@ -41,8 +41,8 @@ topics:
     content:
       - level: 1
         criteria:
-          - "Independently works on small, low-impact, well-defined task"
-          - "Looks to optimise existing work (eg Processes, procedures, products, etc)"
+          - "Independently works on small, low-impact, well-defined tasks"
+          - "Looks to optimise existing work (e.g. processes, procedures, products, etc.)"
       - level: 2
         criteria:
           - "Delivers small, well-defined tasks/projects"

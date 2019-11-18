@@ -29,6 +29,10 @@ topics:
   - name: "communication"
     title:
     content:
+      - level: 1
+        criteria:
+          - "Utilises Sprint Stand-up ceremony to communicate their workload on a daily basis"
+          - "Attends and voices opinions within team meetings"
       - level: 2
         criteria:
           - "Provides regular status updates to their mentor/buddy"
@@ -71,6 +75,10 @@ topics:
   - name: "impact"
     title:
     content:
+      - level: 1
+        criteria:
+          - "Collaborates with team members to deliver simple enhancements and bug fixes"
+          - "Provides constructive feedback as to how ENSEK can support the learning requirements of themselves and future Placement Software Engineers"
       - level: 2
         criteria:
           - "Delivers assigned tasks, working with a more senior team member, and able to take PR feedback to improve their work"
@@ -199,6 +207,11 @@ topics:
   - name: "mastery"
     title: "🛠️ Mastery"
     content:
+      - level: 1
+        criteria:
+          - "Learn the fundamentals of programming from team members and learning resources"
+          - "Become familiar with the varying tools utilised to design, build, test and deploy software"
+          - "Understand why each piece of the ENSEK technology stack is used and how it integrates with one and other"
       - level: 2
         criteria:
           - "Learns to write semantic HTML and CSS following guidance and training materials"
@@ -206,7 +219,7 @@ topics:
           - "Learns to write correct C# following guidance and training materials"
           - "Uses Chrome and Angular DevTools effectively to increase productivity during development and debugging"
           - "Implements simple components"
-          - "Fixes simple bugs"
+          - "Fixes bugs"
           - "Asks questions and actions feedback from mentor"
         exampleCriteria:
           - criteria: "Uses git to manage the development workflow effectively"
